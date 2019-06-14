@@ -68,7 +68,8 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+           // 'model' => Backpack\Base\App\models\BackpackUser::class,
+             'model' => App\User::class,
         ],
 
         // 'users' => [
